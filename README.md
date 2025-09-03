@@ -37,10 +37,15 @@ go run main.go
 The backend runs on: [http://localhost:8080](http://localhost:8080)
 
 ### Frontend Setup
+
+You'll need a .env file to setup your API url, like this:
+
+VITE_APT_URL=http://localhost:8080
+
 ```bash
-cd frontend
+cd Frontend
 npm install
-npm start
+npm run dev
 ```
 The frontend runs on: [http://localhost:3000](http://localhost:3000)
 
